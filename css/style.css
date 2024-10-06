@@ -52,6 +52,9 @@ header {
 
 #gallery {
     border: 8px solid lightblue;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    text-align: center;
 
 }
 
@@ -61,5 +64,36 @@ header {
 
 #gallery figure {
     text-align: center;
+}
+
+/*Classic literature section*/
+
+#lit {
+    color: white;
+    border: 10px solid lightblue;
+    font-family: Verdana;
+
+
+}
+
+#lit div {
+    padding: 4rem;
+    max-width: 30rem;
+    margin: 0 auto;
+}
+    
+/* Dropcaps */
+#lit div p:first-letter {
+    color: black;
+    float: left;
+    font-family: Matemasie;
+    font-size:2em;
+    padding: 0.25em;
+    line-height: .60;
+    border: 2px solid lightblue;
+    text-shadow: 3px 3px 4px rgba(0,0,0,.5);
+    box-shadow: 5px 5px 5px rgba (0,0,0,.5);
+    border-top-left-radius: .3em;
+    border-bottom-right-radius: .3em;
 }
 
