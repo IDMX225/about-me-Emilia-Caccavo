@@ -22,21 +22,44 @@ header {
     
 }
 
+/*Hero Section*/
+
 #hero img {
     width: 250px;
     text-align:center;
 }
 
+/*Bird Section*/
+
 #bird img {
         width: 50px;
 }
+
+/*Biography Section*/
 
 #bio {
     text-align:center;
 }
 
+/*Hobby section*/
+
 #hobbies ul li:nth-child(even){
     color: black
 
+}
+
+/*Gallery*/
+
+#gallery {
+    border: 8px solid lightblue;
+
+}
+
+#gallery img {
+    max-width:100%;
+}
+
+#gallery figure {
+    text-align: center;
 }
 
