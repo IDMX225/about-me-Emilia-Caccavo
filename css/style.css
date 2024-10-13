@@ -1,6 +1,6 @@
 body {
     font-family:"kay pho du";
-    background-color: #FF5C77;
+    background-color: #c8818d;
     color:#000000
 }
 
@@ -12,11 +12,13 @@ h1{
     font-size:40pt;
 }
 
+h2 {
+    margin: .1em;
 
 header {
     text-align:center;
 }
-
+}
 #hero, footer {
     background-color:#FBFFFB
     
@@ -43,8 +45,13 @@ header {
 
 /*Hobby section*/
 
+section#hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #hobbies ul li:nth-child(even){
-    color: black
+    color: black;
 
 }
 
@@ -83,7 +90,7 @@ header {
 }
     
 /* Dropcaps */
-#lit div p:first-letter {
+#lit div p:first-child:first-letter {
     color: black;
     float: left;
     font-family: Matemasie;
@@ -97,3 +104,49 @@ header {
     border-bottom-right-radius: .3em;
 }
 
+/* tablet size */
+@media screen and (min-width: 60em) {
+    figure {
+        display:-grid;
+        grid-template-columns: 2fr 1fr;
+
+    }
+
+    figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+        margin-left: 1em;
+    }
+
+    figure img {
+        width: 100%;
+    }
+    
+
+    #lit div {
+        max-width: 100%;
+        columns: 20em;
+    }
+/* Large screen size */
+
+@media screen and (min-width: 100em)    {
+    #gallery {
+        diplay: grid;
+        grid-template-columns: 1fr 1fr 1fr
+    }
+
+    hr{
+        display: none;
+    }
+
+    #gallery h2 {
+        grid-column:1/-1;
+    }
+
+    figure {
+        display: block;
+    }
+}
+}
