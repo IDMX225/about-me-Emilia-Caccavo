@@ -1,6 +1,6 @@
 body {
     font-family:"kay pho du";
-    background-color: #FF5C77;
+    background-color:#ac7981;
     color:#000000
 }
 
@@ -97,3 +97,9 @@ header {
     border-bottom-right-radius: .3em;
 }
 
+#video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
