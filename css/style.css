@@ -1,6 +1,6 @@
 body {
     font-family:"kay pho du";
-    background-color:#ac7981;
+    background-color: #c8818d;
     color:#000000
 }
 
@@ -12,11 +12,13 @@ h1{
     font-size:40pt;
 }
 
+h2 {
+    margin: .1em;
 
 header {
     text-align:center;
 }
-
+}
 #hero, footer {
     background-color:#FBFFFB
     
@@ -43,8 +45,13 @@ header {
 
 /*Hobby section*/
 
+section#hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #hobbies ul li:nth-child(even){
-    color: black
+    color: black;
 
 }
 
@@ -83,7 +90,7 @@ header {
 }
     
 /* Dropcaps */
-#lit div p:first-letter {
+#lit div p:first-child:first-letter {
     color: black;
     float: left;
     font-family: Matemasie;
