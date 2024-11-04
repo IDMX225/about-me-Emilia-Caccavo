@@ -48,7 +48,7 @@ header {
 section#hobbies {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 #hobbies ul li:nth-child(even){
     color: black;
