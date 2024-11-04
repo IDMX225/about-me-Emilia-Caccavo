@@ -110,3 +110,9 @@ section#hobbies {
     align-items: center;
     height: auto;
 }
+
+/* Contact Form */
+
+#formElements{
+    display:grid;
+}
