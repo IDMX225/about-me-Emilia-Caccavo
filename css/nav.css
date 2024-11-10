@@ -34,9 +34,27 @@ main {
 
 /* logo */
 
+.logo {
+    display: flex;
+    align-items: center;
+}
 
+.logo img {
+    height: 6vw;
+    width: 6vw;
+}
+
+.logo h1 {
+    font-size: 1.2em;
+}
 
 /* navigation list */
+
+.navbar-links li {
+    list-style: none;
+    display: block;
+    padding: 0.5em 0;
+}
 
 
 /*  
@@ -44,7 +62,23 @@ main {
  and then on hover
 */
 
+.navbar-links a {
+    color: white;
+    background-attachment: rgb(255, 249, 170);
+    font-size: 1.5rem;
+    padding: 1rem 1.25rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: inline-block;
+}
 
+.navbar-links a:hover,
+.navbar-links a:focus {
+    color: black;
+    filter: invert(1);
+    border-radius: 10px;
+    outline: none;
+}
 
 
 
