@@ -20,7 +20,7 @@ header {
 }
 }
 #hero, footer {
-    background-color:#FBFFFB
+    background-color:#ffffff
     
 }
 
@@ -58,7 +58,7 @@ section#hobbies {
 /*Gallery*/
 
 #gallery {
-    border: 8px solid lightblue;
+    border: 8px solid #2C7C9B;
     margin-top: 4rem;
     margin-bottom: 2rem;
     text-align: center;
@@ -80,8 +80,8 @@ section#hobbies {
 /*Classic literature section*/
 
 #lit {
-    color: rgb(0, 0, 0);
-    border: 10px solid lightblue;
+    color: #000000;
+    border: 10px solid #add8e6;
     font-family: Verdana;
     align-items: center;
 }
