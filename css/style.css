@@ -73,6 +73,10 @@ section#hobbies {
     text-align: center;
 }
 
+#gallery figure:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
 /*Classic literature section*/
 
 #lit {
@@ -158,3 +162,4 @@ legend {
     width: 50%;
     justify-self: center;
 }
+
