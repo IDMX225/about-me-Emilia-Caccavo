@@ -1,6 +1,6 @@
 # README
 
-# Description
+## Description
 
 Hello! My name is Emilia Caccavo and I am a web development student.  I have begun to learn about the basics of designing webpages, with a special focus on using contrasting colors so they are easy to see by anyone and adjusting the design to fit multiple screens.  In making this webpage, I have applied my new skills to make an aesthetically pleasing and accesible website.  I have some experience in java and very limited experience in python.  I have loved html so far as it is a lot more straight forward and simple, but it is not boring.
 
@@ -13,20 +13,20 @@ Throughout this project, I've learned how to:
 - Add character to my webpage using hover effects, different fonts, and shadowing letters and paragraphs.
 - Integrate media queries for different screen sizes.
 
-# Color Scheme
+## Color Scheme
 
-Light pink used: #ebc0c7 
-Dark blue used: #106ea8
-Light Blue used: #add8e6 
-White: #FFFFFF
-Black: #000000
+Light pink used: '#ebc0c7'
+Dark blue used: '#106ea8'
+Light Blue used: '#add8e6' 
+White: '#FFFFFF'
+Black: '#000000'
 
 ![alt text](<Color Palette.png>)
 
-# Netlify Status Badge
+## Netlify Status Badge
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4c1941cc-511f-4ead-b89b-8fed525e22b8/deploy-status)](https://app.netlify.com/sites/emiliacaccavo-aboutme/deploys)
   
-# License
+## License
 
-All content is created by Emilia Caccavo, unless otherwise noted.
+[MIT](https://choosealicense.com/licenses/mit/)
