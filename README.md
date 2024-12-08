@@ -15,13 +15,13 @@ Throughout this project, I've learned how to:
 
 ## Color Scheme
 
-Light pink used: '#ebc0c7'
-Dark blue used: '#106ea8'
-Light Blue used: '#add8e6' 
-White: '#FFFFFF'
-Black: '#000000'
+- Light pink used: '#ebc0c7'
+- Dark blue used: '#106ea8'
+- Light Blue used: '#add8e6' 
+- White: '#FFFFFF'
+- Black: '#000000'
 
-![alt text](<Color Palette.png>)
+![Color Palette](<Color Palette.png>)
 
 ## Netlify Status Badge
 
