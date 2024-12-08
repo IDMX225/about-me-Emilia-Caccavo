@@ -1,7 +1,9 @@
 body {
     font-family:"kay pho du";
     background-color: #ebc0c7;
-    color:#000000
+    color:#000000;
+    margin: 0;
+    padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,14 +22,15 @@ header {
 }
 }
 #hero, footer {
-    background-color:#ffffff
+    background-color:#FBFFFB
     
 }
 
 /*Hero Section*/
 
 #hero img {
-    width: 250px;
+    width: 100%;
+    max-width: 250px;
     text-align:center;
 }
 
@@ -45,10 +48,8 @@ header {
 
 /*Hobby section*/
 
-section#hobbies {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
+#hobbies {
+    align-items: right;
 }
 #hobbies ul li:nth-child(even){
     color: black;
@@ -58,25 +59,45 @@ section#hobbies {
 /*Gallery*/
 
 #gallery {
-    border: 8px solid #2C7C9B;
+    border: 8px solid lightblue;
     margin-top: 4rem;
     margin-bottom: 2rem;
     text-align: center;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 
 #gallery img {
     max-width:100%;
+    border-radius: 8px;
+    transition: 0.3s ease;
+    box-shadow: 0.3s ease;
+    object-fit: cover;
 }
 
 #gallery figure {
+    margin: 1rem;
+    display: inline-block;
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
     text-align: center;
 }
 
 #gallery figure:hover {
     transform: scale(1.05);
-    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 12px rgba(0,0,0,.5)
 }
+
+@media (max-width: 480px) {
+    #gallery figure {
+        width: 100%;
+    }
+}
+
 /*Classic literature section*/
 
 #lit {
@@ -163,3 +184,43 @@ legend {
     justify-self: center;
 }
 
+/* Media Queries- Tablets */
+
+@media (max-width: 768px) {
+    #gallery figure {
+        width: 50%;
+    }
+}
+
+#hero img {
+    max-width: 200px;
+}
+
+h1 {
+    font-size: 30pt;
+}
+
+/* Small screens */
+
+@media (max-width: 480px) {
+    #gallery figure {
+        width: 100%;
+    }
+}
+
+#hero img {
+    max-width: 150px;
+}
+
+h1 {
+    font-size: 24pt;
+}
+
+#hobbies {
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+    width: 100%;
+}
