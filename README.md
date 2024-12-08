@@ -13,6 +13,10 @@ Throughout this project, I've learned how to:
 - Add character to my webpage using hover effects, different fonts, and shadowing letters and paragraphs.
 - Integrate media queries for different screen sizes.
 
+# Logo 
+
+![Logo](<Images/favicon.png>)
+
 ## Color Scheme
 
 - Light pink used: '#ebc0c7'
