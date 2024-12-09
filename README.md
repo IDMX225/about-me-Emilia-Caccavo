@@ -30,7 +30,13 @@ Throughout this project, I've learned how to:
 ## Netlify Status Badge
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4c1941cc-511f-4ead-b89b-8fed525e22b8/deploy-status)](https://app.netlify.com/sites/emiliacaccavo-aboutme/deploys)
+
+# Citations
+Here are some useful resources that I used to learn about hover effects:
+
+- [W3Schools: How TO - Image Hover Overlay](https://www.w3schools.com/howto/howto_css_image_overlay.asp)
+- [The Brandsmen: 10 simple CSS Hover Effects](https://thebrandsmen.com/css-image-hover-effects/)
+- [wpDataTables: 37 Awesome CSS Image Hover Effects That You Can Use](https://wpdatatables.com/css-image-hover-effects/)
   
 ## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+Copyright (c) [2024][Emilia Caccavo]
