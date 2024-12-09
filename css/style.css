@@ -1,7 +1,9 @@
 body {
     font-family:"kay pho du";
     background-color: #ebc0c7;
-    color:#000000
+    color:#000000;
+    margin: 0;
+    padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,7 +29,8 @@ header {
 /*Hero Section*/
 
 #hero img {
-    width: 250px;
+    width: 100%;
+    max-width: 250px;
     text-align:center;
 }
 
@@ -43,12 +46,22 @@ header {
     text-align:center;
 }
 
+.styled-image {
+    width: 25%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    border: 2px solid #ffffff;
+    display: block;
+    max-width: 150px;
+    object-fit: cover;
+}
+
 /*Hobby section*/
 
-section#hobbies {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
+#hobbies {
+    align-items: right;
 }
 #hobbies ul li:nth-child(even){
     color: black;
@@ -62,22 +75,46 @@ section#hobbies {
     margin-top: 4rem;
     margin-bottom: 2rem;
     text-align: center;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 
 #gallery img {
     max-width:100%;
+    border-radius: 8px;
+    transition: 0.3s ease;
+    box-shadow: 0.3s ease;
+    object-fit: cover;
 }
 
 #gallery figure {
+    margin: 1rem;
+    display: inline-block;
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
     text-align: center;
+}
+
+#gallery figure:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0,0,0,.5)
+}
+
+@media (max-width: 480px) {
+    #gallery figure {
+        width: 100%;
+    }
 }
 
 /*Classic literature section*/
 
 #lit {
-    color: rgb(0, 0, 0);
-    border: 10px solid lightblue;
+    color: #000000;
+    border: 10px solid #add8e6;
     font-family: Verdana;
     align-items: center;
 }
@@ -157,4 +194,47 @@ legend {
     max-width: 400px;
     width: 50%;
     justify-self: center;
+}
+
+
+
+/* Media Queries- Tablets */
+
+@media (max-width: 768px) {
+    #gallery figure {
+        width: 50%;
+    }
+}
+
+#hero img {
+    max-width: 200px;
+}
+
+h1 {
+    font-size: 30pt;
+}
+
+/* Small screens */
+
+@media (max-width: 480px) {
+    #gallery figure {
+        width: 100%;
+    }
+}
+
+#hero img {
+    max-width: 150px;
+}
+
+h1 {
+    font-size: 24pt;
+}
+
+#hobbies {
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+    width: 100%;
 }
